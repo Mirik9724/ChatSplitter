@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "chatsplitter",
+  "version": "${version}",
+  "name": "ChatSplitter",
+  "description": "Splits long chat messages into parts (Does not work on some servers).",
+  "authors": ["Mirik9724"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/chatsplitter/logo2.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.Mirik9724.chatsplitter.ChatsplitterClient"
+    ]
+  },
+  "mixins": [
+    "chatsplitter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
