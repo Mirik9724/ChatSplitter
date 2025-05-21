@@ -5,9 +5,13 @@
   "name": "ChatSplitter",
   "description": "Splits long chat messages into parts (Does not work on some servers).",
   "authors": ["Mirik9724"],
-  "contact": {},
-  "license": "All-Rights-Reserved",
-  "icon": "assets/chatsplitter/logo2.png",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/chatsplitter",
+    "sources": "https://github.com/Mirik9724/ChatSplitter/",
+    "issues": "https://github.com/Mirik9724/ChatSplitter/issues"
+  },
+  "license": "https://github.com/Mirik9724/Mirik9724/blob/main/LICENSE-Mirik9724%60s-for-code.md",
+  "icon": "logo2.png",
   "environment": "client",
   "entrypoints": {
     "client": [
