@@ -22,9 +22,9 @@
     "chatsplitter.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabricloader": ">=0.7.0",
+    "fabric-language-kotlin": ">=1.6.0",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=1.14.0"
   }
 }
